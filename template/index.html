@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Template – $65M for Allston-Brighton Community Center</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0f2542;
+    --gold: #c8922a;
+    --cream: #faf8f3;
+    --warm-white: #ffffff;
+    --light-border: #e5ded0;
+    --text-body: #2c2c2c;
+    --text-muted: #6b6257;
+  }
+
+  body {
+    background: var(--cream);
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: var(--text-body);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  header {
+    background: var(--navy);
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: var(--gold);
+  }
+
+  header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    color: #ffffff;
+    line-height: 1.25;
+    max-width: 680px;
+    margin: 0 auto 0.75rem;
+    letter-spacing: -0.01em;
+  }
+
+  header h1 span {
+    color: var(--gold);
+  }
+
+  header p {
+    color: #a8bacf;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  .instructions {
+    background: var(--warm-white);
+    border: 1px solid var(--light-border);
+    border-left: 4px solid var(--gold);
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .instructions strong {
+    color: var(--text-body);
+    font-weight: 400;
+  }
+
+  .instructions ol {
+    margin: 0.5rem 0 0 1.25rem;
+  }
+
+  .instructions ol li {
+    margin-bottom: 0.25rem;
+  }
+
+  .field {
+    margin-bottom: 1.5rem;
+  }
+
+  .field-label {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .field-box {
+    background: var(--warm-white);
+    border: 1px solid var(--light-border);
+    border-radius: 4px;
+    padding: 1rem 1.25rem;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-body);
+    white-space: pre-wrap;
+    position: relative;
+    transition: border-color 0.2s;
+  }
+
+  .field-box:hover {
+    border-color: #c9bfb0;
+  }
+
+  .field-box.emails {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    line-height: 1.9;
+  }
+
+  .field-note {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+    font-style: italic;
+  }
+
+  .body-field .field-box {
+    min-height: 360px;
+    font-size: 0.975rem;
+  }
+
+  .placeholder {
+    color: #b0a090;
+    font-style: italic;
+  }
+
+  .copy-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+
+  .copy-btn {
+    background: var(--navy);
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+
+  .copy-btn:hover { background: #1a3a60; }
+  .copy-btn:active { transform: scale(0.97); }
+  .copy-btn.copied { background: #2a6e3f; }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--light-border);
+    margin: 2rem 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Support a New<br><span>Allston-Brighton Community Center</span></h1>
+  <p>Use the template below to email Mayor Wu and the Boston City Council.</p>
+</header>
+
+<main>
+
+  <div class="instructions">
+    <strong>How to send this email:</strong>
+    <ol>
+      <li>Copy each field below and paste it into your email client (Gmail, Outlook, etc.)</li>
+      <li>Fill in your name at the bottom of the body</li>
+      <li>Add a personal sentence about what a community center would mean to you</li>
+    </ol>
+  </div>
+
+  <div class="field">
+    <span class="field-label">To</span>
+    <div class="field-box emails" id="field-to">mayor@boston.gov</div>
+    <div class="copy-row"><button class="copy-btn" onclick="copyField('field-to', this)">Copy</button></div>
+  </div>
+
+  <div class="field">
+    <span class="field-label">CC</span>
+    <div class="field-box emails" id="field-cc">ruthzee.louijeune@boston.gov
+henry.santana@boston.gov
+julia.mejia@boston.gov
+erin.murphy@boston.gov
+clare.kelly@boston.gov
+ricardo.patron@boston.gov
+mohammed.missouri@boston.gov
+lindsey.santana@boston.gov
+brianna.millor@boston.gov</div>
+    <div class="copy-row"><button class="copy-btn" onclick="copyField('field-cc', this)">Copy</button></div>
+  </div>
+
+  <div class="field">
+    <span class="field-label">BCC</span>
+    <div class="field-box emails" id="field-bcc">ndjavadummy@gmail.com</div>
+    <p class="field-note">This helps us track how many emails have been sent.</p>
+    <div class="copy-row"><button class="copy-btn" onclick="copyField('field-bcc', this)">Copy</button></div>
+  </div>
+
+  <div class="field">
+    <span class="field-label">Subject</span>
+    <div class="field-box" id="field-subject">$65M for a new Allston-Brighton Community Center</div>
+    <div class="copy-row"><button class="copy-btn" onclick="copyField('field-subject', this)">Copy</button></div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="field body-field">
+    <span class="field-label">Body</span>
+    <div class="field-box" id="field-body">Dear Mayor Michelle Wu,
+
+I am an Allston-Brighton resident emailing to ask you to:
+
+(1) commit to the inclusion of at least $65MM in the FY27–FY31 Capital Plan for the construction of a new Allston-Brighton community center, and
+
+(2) commit to a definitive timeline for this essential project.
+
+I understand that the proposed FY27–FY31 Capital Plan includes $10MM in funding to study options for a new community center in Allston-Brighton. With estimated construction costs of upwards of $80MM, this proposed funding is grossly insufficient. Furthermore, the status for the Allston-Brighton Community Center project in the FY27–FY31 Capital Plan remains classified as 'Study Underway' — meaning that there is no definitive timeline for project implementation.
+
+Here's how a new community center would make a difference for me:
+<span class="placeholder">[Add your personal message here]</span>
+
+Regards,
+<span class="placeholder">[Your Name]</span></div>
+    <div class="copy-row"><button class="copy-btn" onclick="copyField('field-body', this)">Copy</button></div>
+  </div>
+
+</main>
+
+<footer>
+  Allston-Brighton Community Center Campaign
+</footer>
+
+<script>
+  function copyField(id, btn) {
+    const el = document.getElementById(id);
+    const text = el.innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = 'Copy';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  }
+</script>
+
+</body>
+</html>
